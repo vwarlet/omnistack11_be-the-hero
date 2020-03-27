@@ -19,14 +19,6 @@ export default function Register(){
     async function handleRegister(e){
         e.preventDefault();
 
-        console.log( {
-            name,
-            email,
-            whatsapp,
-            city,
-            uf,
-        });
-
         const data = {
             name,
             email,
